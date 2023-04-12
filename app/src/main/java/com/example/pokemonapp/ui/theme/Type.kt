@@ -16,21 +16,16 @@ val Typography = Typography(
         fontSize = 16.sp
     )
 
-    /* Other default text styles to override
-    button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
-    ),
-    caption = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
-    )
-    */
 )
-
+//Adding custom fonts.
 val RobotoBold = FontFamily(Font(R.font.roboto_bold))
 val RobotoLight = FontFamily(Font(R.font.roboto_light))
 val RobotoMedium = FontFamily(Font(R.font.roboto_medium))
 val RobotoRegular = FontFamily(Font(R.font.roboto_regular))
+
+/*
+In Jetpack Compose, the R class is an auto-generated class that holds references to all the
+resources in your Android project. The R class is generated during the build process and contains
+nested classes for each type of resource, such as R.drawable, R.color, R.string, R.layout, R.font,
+and so on.
+ */
